@@ -1,0 +1,167 @@
+body {background-color: Linen;
+      font-family: Helvetica, Arial, sans-serif;
+
+     }
+
+header {position:absolute;
+        top:0;
+        left:0;
+
+         margin-left:0px;
+         background-color: DarkSeaGreen;
+         width:100%;
+         height:100px;
+         padding:15px;
+       }
+
+
+ul a{
+     color:white;
+     text-decoration:none;
+
+
+}
+ li{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    display:inline-block;
+    height:25px;
+    width:120px;
+    padding:15px;
+    text-align:center;
+    color:white;
+    border-left:2px solid DarkBlue;
+    border-right:1px solid DarkBlue;
+    background-color:DarkSlateBlue;
+
+ }
+
+
+
+ li:hover{
+          background-color:DodgerBlue;
+          border-style: none;
+          color:Gold;
+          border-left:2px solid DarkBlue;
+          border-right:1px solid DarkBlue;
+
+
+         }
+
+ li a:hover{
+            color:Gold;
+           }
+
+  #ind{background-color:DodgerBlue;
+      }
+  #ind a{color:Gold;
+        }
+
+
+  #p1{
+      margin-left: auto;
+      margin-right: auto;
+      height:300px;
+      width:98%;
+      font-size:16px;
+      background-color:#F0E68C;
+     }
+
+  #p2{
+      margin-left: auto;
+      margin-right: auto;
+      height:300px;
+      width:98%;
+      font-size:16px;
+      background-color:#FFFACD;
+      }
+
+    #p3{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:15px;
+        height:300px;
+        width:98%;
+        font-size:16px;
+        background-color:#D3D3D3;
+          }
+
+ p {padding:20px;
+   position:absolute;
+   width:auto;
+   top:0;}
+
+ p img{
+      float:right;
+      padding:5px;
+      border:1px solid blue;
+      margin-top:5px;
+      margin-left: 5px;
+    }
+
+#container{background-color:white;
+           position:absolute;
+           top:30%;
+           height:300px;
+           width:40%;
+           left:30%;
+           right:30%;
+         }
+
+
+#tabel{width:100%;
+       height:100%;
+       border-collapse:collapse;
+       padding:10px;
+
+     }
+td{padding:7px;
+  }
+th{padding:7px;
+  }
+
+#titel   {color:blue;
+          margin-left:25px;
+          }
+
+
+input[type="text"], input[type="email"], textarea{
+     display:block;
+     margin:15px 0px 0px 25px;
+     width:400px;
+     box-sizing:border-box;
+     border-radius:5px;
+}
+
+button{color:white;
+       background-color:DarkSlateBlue;
+       margin-left:59%;
+       margin-top:8px;
+       border:1px sold DarkSlateBlue;
+       border-radius:3px;
+      }
+
+button:hover {background-color:DodgerBlue;
+        color:Gold;
+        cursor:pointer;
+
+        }
+
+textarea{height:110px;
+         padding:7px}
+
+
+
+footer {position:absolute;
+        bottom:0px;
+        left:0;
+
+        background-color: DarkSeaGreen;
+        width:100%;
+        height:100px;
+        }
+ footer p  {width:100%;
+            padding-top:60px;
+            font-size:12px;
+            text-align: center;
+       }
